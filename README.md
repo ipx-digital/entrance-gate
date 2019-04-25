@@ -31,24 +31,24 @@ Add `id="ConfirmGateYes"` to the button/link/element you wish to use for the "ye
 Adding the following to the `layouts/default` file will include the check on every page using the default layout:
 
 ```html
-    {{ entrance_gate }}
-        <div style="padding: 2em; max-width: 550px; background-color: #fff;">
-            <h4 style="text-align: center;">
-            	Do you want to enter?
-            </h4>
-            <p style="text-align: center;">
-            	This is a custom box.
-            </p>
-            <div style="margin-top: 2em; text-align: center;">
-                <button id="ConfirmGateYes" style="background-color: #eee; border: 2px solid #eee; padding: 0.25em 1.5em;">
-                	Yes
-                </button>
-                <button id="ConfirmGateNo" style="background-color: #fff; border: 2px solid #eee; padding: 0.25em 1.5em;">
-                	No
-                </button>
-            </div>
+{{ entrance_gate }}
+    <div style="padding: 2em; max-width: 550px; background-color: #fff;">
+        <h4 style="text-align: center;">
+            Do you want to enter?
+        </h4>
+        <p style="text-align: center;">
+            This is a custom box.
+        </p>
+        <div style="margin-top: 2em; text-align: center;">
+            <button id="ConfirmGateYes" style="background-color: #eee; border: 2px solid #eee; padding: 0.25em 1.5em;">
+                Yes
+            </button>
+            <button id="ConfirmGateNo" style="background-color: #fff; border: 2px solid #eee; padding: 0.25em 1.5em;">
+                No
+            </button>
         </div>
-    {{ /entrance_gate }}
+    </div>
+{{ /entrance_gate }}
 ```
 
 **Notes**
