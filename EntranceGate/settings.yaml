@@ -1,0 +1,10 @@
+fields:
+  is_active:
+    display: Active
+    type: toggle
+    validate: required
+    default: false
+  redirect_url:
+    display: Declined Redirect URL
+    type: text
+    instructions: Where do you want to redirect a user who declines or otherwise says no?
