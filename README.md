@@ -59,4 +59,3 @@ The `{{ entrance_gate }}` tag will:
 
 * apply a full-screen wrapper that will grey-out the background
 * vertically and horizontally center the div included inside the tag using flexbox
-* 
