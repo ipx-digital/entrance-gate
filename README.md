@@ -1,3 +1,7 @@
+## Live Example
+
+[Here](https://ipx.org/statamic-2/entrance-gate-example) is a live example, using the built-in 21+ checker.
+
 ## Installation
 
 Unzip and place the `EntranceGate` directory in your `site/addons` directory.
