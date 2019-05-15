@@ -18,7 +18,7 @@ class EntranceGateTags extends Tags
         
         if ($isActive && $notConfirmed) {
             $code = '
-                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 1;">
+                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 100;">
                     ' . $this->content . '
                 </div>
             ';
@@ -42,9 +42,9 @@ class EntranceGateTags extends Tags
 
         if ($isActive && $notConfirmed) {
             $code = '
-                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 1;">
+                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 100;">
                     <div style="padding: 2em; max-width: 550px; background-color: #fff;">
-                        <h4 style="text-align: center;">Are you over 21?</h4>
+                        <h4 style="text-align: center; margin-bottom: 1em;">Are you over 21?</h4>
                         <p style="text-align: center;">You must be 21 or older to continue.</p>
                         <div style="margin-top: 2em; text-align: center;">
                             <button id="ConfirmGateYes" style="background-color: #eee; border: 2px solid #eee; padding: 0.25em 1.5em;">Yes</button>
@@ -73,9 +73,9 @@ class EntranceGateTags extends Tags
 
         if ($isActive && $notConfirmed) {
             $code = '
-                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 1;">
+                <div id="gate-wrapper" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(51, 50, 47, 0.9); z-index: 100;">
                     <div style="padding: 2em; max-width: 550px; background-color: #fff;">
-                        <h4 style="text-align: center;">This website uses cookies</h4>
+                        <h4 style="text-align: center; margin-bottom: 1em;">This website uses cookies</h4>
                         <p style="text-align: center;">Do you accept our use of cookies?</p>
                         <div style="margin-top: 2em; text-align: center;">
                             <button id="ConfirmGateYes" style="background-color: #eee; border: 2px solid #eee; padding: 0.25em 1.5em;">Yes</button>
